@@ -1,9 +1,8 @@
 import java.util.*;
 
 public class _1676 {
-	public static void main(String[] args) {
+	public static void main(String[] a) {
 		Scanner scan = new Scanner(System.in);
-		
 		int two = 0, five = 0, input_num = scan.nextInt();
 		
 		for(int i=1; i<=input_num; i++) {
@@ -18,7 +17,6 @@ public class _1676 {
 				temp=temp/5;
 			}
 		}
-		
 		System.out.print(Math.min(two, five));
 	}
 }
