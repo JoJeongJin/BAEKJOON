@@ -7,7 +7,7 @@ public class _4375 {
     //1로만 이루어진 n의 배수?
     //
     public static void main(String[] args) throws IOException {
-        String input;
+        String input ;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while ((input = br.readLine()) != null) {
